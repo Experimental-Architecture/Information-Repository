@@ -24,3 +24,7 @@ $ docker exec -it database-service mysqldump -p -uroot -ppassword db_drupal > dr
 
 
 ```
+
+
+Please view the Wiki for this project
+https://github.com/Services-Sandbox/Information-Repository/wiki

@@ -23,6 +23,15 @@ Exporting from Docker
 $ docker exec -it database-service mysqldump -p -uroot -ppassword db_drupal > drupal.sql
 
 
+# remove the token ...
+KUBE_EDITOR="nano" kubectl edit secret $(kubectl get secrets --namespace=kube-system -o jsonpath='{.items[0].metadata.name}') --namespace=kube-system
+
+# get pods
+kubectl get pods --all-namespaces
+
+
+
+
 ```
 
 

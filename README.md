@@ -30,6 +30,9 @@ KUBE_EDITOR="nano" kubectl edit secret $(kubectl get secrets --namespace=kube-sy
 kubectl get pods --all-namespaces
 
 
+1. Install Docker
+2. Install Composer
+3. Install Kubernetes (minikube for local installation)
 
 
 ```

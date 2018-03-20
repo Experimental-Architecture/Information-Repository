@@ -9,6 +9,7 @@ https://docs.docker.com/engine/reference/run/#name-name
 https://www.digitalocean.com/community/tutorials/docker-explained-using-dockerfiles-to-automate-building-of-images
 https://stackoverflow.com/questions/1559955/host-xxx-xx-xxx-xxx-is-not-allowed-to-connect-to-this-mysql-server
 https://github.com/kubernetes/minikube/releases
+http://192.168.1.33:8001/api/v1/namespaces/kube-system/services/http:kubernetes-dashboard:/proxy/#!/overview?namespace=default
 
 Docker build images
 $ docker build -t "simple_flask:dockerfile" .

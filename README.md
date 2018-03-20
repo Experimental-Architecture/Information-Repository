@@ -8,7 +8,7 @@ http://odewahn.github.io/docker-jumpstart/building-images-with-dockerfiles.html
 https://docs.docker.com/engine/reference/run/#name-name
 https://www.digitalocean.com/community/tutorials/docker-explained-using-dockerfiles-to-automate-building-of-images
 https://stackoverflow.com/questions/1559955/host-xxx-xx-xxx-xxx-is-not-allowed-to-connect-to-this-mysql-server
-
+https://github.com/kubernetes/minikube/releases
 
 Docker build images
 $ docker build -t "simple_flask:dockerfile" .

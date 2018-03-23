@@ -41,3 +41,14 @@ kubectl get pods --all-namespaces
 
 Please view the Wiki for this project
 https://github.com/Services-Sandbox/Information-Repository/wiki
+
+
+
+
+https://wadatabase.azurewebsites.net/
+https://wasolrservice.azurewebsites.net
+https://waquerytoolservice.azurewebsites.net
+https://wadrupalservice.azurewebsites.net
+
+
+

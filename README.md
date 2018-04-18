@@ -42,6 +42,10 @@ https://waquerytoolservice.azurewebsites.net
 https://wadrupalservice.azurewebsites.net
 
 
+kubectl proxy &
+ssh -R 30000:127.0.0.1:8001 $USER@192.168.0.20
+http://192.168.0.20:30000
+
 ```
 
 

@@ -46,6 +46,11 @@ kubectl proxy &
 ssh -R 30000:127.0.0.1:8001 $USER@192.168.0.20
 http://192.168.0.20:30000
 
+
+
+
+https://www.techrepublic.com/article/how-to-quickly-install-kubernetes-on-ubuntu/
+https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/
 ```
 
 

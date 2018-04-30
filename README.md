@@ -57,7 +57,7 @@ https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/
 Please view the Wiki for this project
 https://github.com/Services-Sandbox/Information-Repository/wiki
 
-
+kubectl create clusterrolebinding cluster-system-anonymous --clusterrole=cluster-admin --user=system:anonymous
 
 
 

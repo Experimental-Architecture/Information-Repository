@@ -60,4 +60,4 @@ https://github.com/Services-Sandbox/Information-Repository/wiki
 kubectl create clusterrolebinding cluster-system-anonymous --clusterrole=cluster-admin --user=system:anonymous
 
 
-
+https://192.168.1.89:6443/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/login

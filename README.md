@@ -63,3 +63,8 @@ kubectl create clusterrolebinding cluster-system-anonymous --clusterrole=cluster
 https://192.168.1.89:6443/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/login
 
 kubectl create clusterrolebinding kubernetes-dashboard --clusterrole=cluster-admin --user=system:serviceaccount:kube-system:kubernetes-dashboard
+
+
+sudo ip addr flush enp0s25
+sudo systemctl restart networking.service
+

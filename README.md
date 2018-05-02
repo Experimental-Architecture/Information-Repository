@@ -51,6 +51,9 @@ http://192.168.0.20:30000
 
 https://www.techrepublic.com/article/how-to-quickly-install-kubernetes-on-ubuntu/
 https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/
+
+
+ export KUBECONFIG=$HOME/.kube/admin.conf
 ```
 
 

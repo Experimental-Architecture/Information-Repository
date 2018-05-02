@@ -71,3 +71,17 @@ kubectl create clusterrolebinding kubernetes-dashboard --clusterrole=cluster-adm
 sudo ip addr flush enp0s25
 sudo systemctl restart networking.service
 
+
+
+
+
+
+Kubernetes Issues
+The pods in kubernetes are in pending state when we execute kubectl get pods
+Execute the following command to see the root cause:
+kubectl get events
+You will see output as follows:
+LAST SEEN FIRST SEEN COUNT NAME KIND SUBOBJECT TYPE REASON SOURCE MESSAG E
+1m 14h 3060 hello-nginx-5d47cdc4b7-8btwf.14ecd67c4676131c Pod Warning FailedScheduling default-scheduler No nod es are available that match all of the predicates: PodToleratesNodeTaints (1).This error usually comes when we try to create pod on the master node:
+Execute the following command:
+kubectl taint nodes <nodeName> node-role.kubernetes.io/master:NoSchedule-

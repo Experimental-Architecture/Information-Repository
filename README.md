@@ -72,7 +72,7 @@ sudo ip addr flush enp0s25
 sudo systemctl restart networking.service
 
 
-
+``` --pod-network-cidr=10.244.0.0/16 ```
 
 
 

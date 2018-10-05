@@ -86,14 +86,23 @@ LAST SEEN FIRST SEEN COUNT NAME KIND SUBOBJECT TYPE REASON SOURCE MESSAG E
 Execute the following command:
 kubectl taint nodes <nodeName> node-role.kubernetes.io/master:NoSchedule-
  
+ Open Source Cloud Service (self-host)
+ - OpenStack
  
- 
+ Version Control
+ - GitHub
+ - GitLab
  
  Identity Management
  - Identity Server
  
  Testing
  - Lint
+ 
+ Testing (Security)
+ - ZAP
+ - Arachni
+ - Vega
  
  Tutorial Guide
  - IntroJS
@@ -115,5 +124,9 @@ kubectl taint nodes <nodeName> node-role.kubernetes.io/master:NoSchedule-
  
  Back End / Database Layer
  - GraphQL / Apollo
+ 
+ Back End 3rd Party
+ - Apache Solr
+ - Elastic Search
  
  

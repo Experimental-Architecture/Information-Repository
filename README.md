@@ -85,3 +85,35 @@ LAST SEEN FIRST SEEN COUNT NAME KIND SUBOBJECT TYPE REASON SOURCE MESSAG E
 1m 14h 3060 hello-nginx-5d47cdc4b7-8btwf.14ecd67c4676131c Pod Warning FailedScheduling default-scheduler No nod es are available that match all of the predicates: PodToleratesNodeTaints (1).This error usually comes when we try to create pod on the master node:
 Execute the following command:
 kubectl taint nodes <nodeName> node-role.kubernetes.io/master:NoSchedule-
+ 
+ 
+ 
+ 
+ Identity Management
+ - Identity Server
+ 
+ Testing
+ - Lint
+ 
+ Tutorial Guide
+ - IntroJS
+ 
+ Front End Languages
+ - Vuetify
+ - React
+ - Java
+ - Swift
+ 
+ Back End Languages
+ - C#
+ - Python
+ - PHP
+ 
+ Database
+ - MySQL
+ - MongoDB
+ 
+ Back End / Database Layer
+ - GraphQL / Apollo
+ 
+ 
